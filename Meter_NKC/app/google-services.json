@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "330053105894",
+    "firebase_url": "https://meter-project-d7fb9.firebaseio.com",
+    "project_id": "meter-project-d7fb9",
+    "storage_bucket": "meter-project-d7fb9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330053105894:android:cae803609d20138042e327",
+        "android_client_info": {
+          "package_name": "th.ac.kku.cis.mobileapp.meter_nkc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "330053105894-m70far7kqm7vsojkatlim41j4jhislj5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "th.ac.kku.cis.mobileapp.meter_nkc",
+            "certificate_hash": "713bf26b4dc1523f8b8eebb8595aa04607a82424"
+          }
+        },
+        {
+          "client_id": "330053105894-5gteho0ae4ur917blj2o12s6ohjol23n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwR1WD2Otu1tRObSc8UaISDfV6FGdCR7w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "330053105894-5gteho0ae4ur917blj2o12s6ohjol23n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
