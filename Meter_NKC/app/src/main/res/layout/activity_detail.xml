@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_save_meter"
+    tools:context=".detail">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="25dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="212dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/thaisansneue_regular"
+        android:text="ชั้น"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toStartOf="@+id/edit_floor"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edit_floor"
+        android:layout_width="236dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/input_w"
+        android:ems="10"
+        android:padding="10dp"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="67dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/thaisansneue_regular"
+        android:text="เลขห้อง"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/edit_RoomNum"
+        app:layout_constraintEnd_toStartOf="@+id/edit_RoomNum"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="83dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/thaisansneue_regular"
+        android:text="เลขมิเตอร์"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/edit_Meter"
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <EditText
+        android:id="@+id/edit_RoomNum"
+        android:layout_width="236dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/input_w"
+        android:ems="10"
+        android:padding="10dp"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/edit_floor"
+        app:layout_constraintStart_toStartOf="@+id/edit_floor"
+        app:layout_constraintTop_toBottomOf="@+id/edit_floor" />
+
+    <EditText
+        android:id="@+id/edit_Meter"
+        android:layout_width="236dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/input_w"
+        android:ems="10"
+        android:padding="10dp"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/edit_RoomNum"
+        app:layout_constraintTop_toBottomOf="@+id/edit_RoomNum" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="130dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/input_w"
+        android:fontFamily="@font/thaisansneue_semi_bold"
+        android:text="บันทึก"
+        android:textColor="@color/colorPrimaryDark_Blue"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/edit_Meter"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/edit_Meter"
+        app:layout_constraintTop_toBottomOf="@+id/edit_Meter" />
+
+    <TextView
+        android:id="@+id/namedorm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/thaisansneue_semi_bold"
+        android:text="TextView"
+        android:textColor="@color/colorGold"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

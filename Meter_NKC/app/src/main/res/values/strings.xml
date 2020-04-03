@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Meter_NKC</string>
+
+
+    <string name="google_status_fmt">Google User: %s</string>
 </resources>

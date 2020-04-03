@@ -4,7 +4,10 @@
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
 
-    <color name="colorPrimaryDark_KKU" >#A73B24</color>
-    <color name="colorPrimary_KKU" >#B9604E</color>
-    <color name="colorgreen">#0BA561</color>
+    <color name="colorPrimaryDark_Blue" >#002646</color>
+    <color name="colorPrimary_Blue" >#0161CC</color>
+    <color name="colorsky">#5EB1FB</color>
+    <color name="colorskyDark">#00B2FE</color>
+    <color name="colorGold">#FFB300</color>
+    <color name="White">#FFFFFF</color>
 </resources>
